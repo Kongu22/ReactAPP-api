@@ -1,0 +1,54 @@
+/* 
+
+
+  
+  .not-found-container h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #db3d3d;
+    background: -webkit-linear-gradient(45deg, #db3d3d, #ff6347);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .not-found-container h1:hover {
+    letter-spacing: 2px;
+  }
+  
+  .not-found-container .message {
+    font-size: 26px;
+    margin: 20px 0;
+    color: #333;
+    line-height: 1.4;
+  }
+  
+  .not-found-container .back-button {
+    margin-top: 1100px;
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease, box-shadow 0.2s ease;
+  }
+  
+  .not-found-container .back-button:hover {
+    background-color: #4cae4c;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .not-found-container, .not-found-container h1, .not-found-container .back-button {
+      transition: none;
+    }
+    body {
+      animation: none;
+    }
+  } */
